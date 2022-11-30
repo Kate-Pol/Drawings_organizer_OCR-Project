@@ -13,8 +13,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 
 
-# drawings for example saved in the folder dwg
-folder_path = "C:\\Users\\***\\***\\***\\dwg"      #THIS SHOULD BE CHANGED DEPENDS OF ORIGINAL/ DST FOLDER LOCATION
+folder_path = "C:\\Users\\katep\\PycharmProjects\\OCR - my_project\\dwg"      #THIS SHOULD BE CHANGED DEPENDS OF DST FOLDER LOCATION
 dirs = os.listdir(folder_path)
 
 total_count = len([name for name in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, name))])  #total number of the files in the directory
