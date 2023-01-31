@@ -1,2 +1,2 @@
 # Files-organizer_tesseract
-Organizing historical scanned drawings, creating necessary folders and moving files, creating summary.
+Python file, which performing historical (scanning) drawings review and organize. Impacting work timeframes. Running code takes up to 5 min and saves about 4 hours of work (~400-500 drawings).
