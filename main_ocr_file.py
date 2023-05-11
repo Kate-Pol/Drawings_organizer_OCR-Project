@@ -12,16 +12,18 @@ from openpyxl.styles import Font, Fill, Alignment
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 
-
-folder_path = "C:\\Users\\katep\\PycharmProjects\\OCR - my_project\\dwg"      #THIS SHOULD BE CHANGED DEPENDS OF DST FOLDER LOCATION
+#reference folder
+folder_path = "\\dwg"      
 dirs = os.listdir(folder_path)
 
-total_count = len([name for name in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, name))])  #total number of the files in the directory
+#total number of the files in the directory
+total_count = len([name for name in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, name))])  
 
-
-wb = Workbook()                            #creating new excel workbook to store summary 
+#creating new excel workbook to store summary
+wb = Workbook()                             
 ws = wb.active
-ws.title = "Drawings Summary"              #name and properties of the worksheet
+#name and properties of the worksheet
+ws.title = "Drawings Summary"              
 ws.sheet_properties.tabColor = "1072BA"
 
 ws.merge_cells('A1:E1')
@@ -44,8 +46,8 @@ for col in range(ws.min_column, ws.max_column + 1):
     dim_holder[get_column_letter(col)] = ColumnDimension(ws, min=col, max=col, width=20)
 ws.column_dimensions = dim_holder
 
-
-plumbing_dwg = 0          #count how many drawings in each folder after files moved
+#count how many drawings in each folder after files moved
+plumbing_dwg = 0          
 elev_dwg = 0
 cellar_dwg = 0
 roof_dwg = 0
@@ -57,7 +59,8 @@ def crop():
         for item in tqdm(dirs):
             sleep(0.05)
             global dwg_path
-            dwg_path = os.path.join(folder_path,item)                   #drawing file path
+            #drawing file path
+            dwg_path = os.path.join(folder_path,item)                   
                         
             if os.path.isfile(dwg_path):                
             
@@ -70,9 +73,9 @@ def crop():
                 bottom = height
                 cropped_im = im.crop((left, top, right, bottom))        #croping bottom right corner of the drawing
                 #cropped_im.show()
-                
+                #eng - using english language; psm 6 - Page segmentation mode - Assume a single uniform block of text; oem 3 - OCR Engine Mode - Legacy + LSTM engines
                 myconfig = r"-l eng --psm 6 --oem 3"
-                text = pytesseract.image_to_string(cropped_im, config=myconfig) #eng - using english language; psm 6 - Page segmentation mode - Assume a single uniform block of text; oem 3 - OCR Engine Mode - Legacy + LSTM engines
+                text = pytesseract.image_to_string(cropped_im, config=myconfig) 
 
                 def moving_file():
                     global plumbing_dwg
