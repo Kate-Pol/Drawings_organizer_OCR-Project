@@ -1,4 +1,6 @@
-# Files-organizer_tesseract
+![](https://github.com/Kate-Pol/Drawings_organizer_OCR-Project/blob/main/png%20files/FILE_ORGANIZER_TESSERACT.png)
+
+![](https://img.shields.io/github/languages/top/Kate-Pol/Drawings_organizer_OCR-Project?color=blue&logo=GitHub&logoColor=blue) ![](https://img.shields.io/github/contributors/Kate-Pol/Drawings_organizer_OCR-Project?color=green&logo=GitHub&logoColor=green)
 
 ### Basic Overview
 ---
