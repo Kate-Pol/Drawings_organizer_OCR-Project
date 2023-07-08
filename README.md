@@ -15,7 +15,7 @@ Project Objectives:
   
 ### 1. Setting Up The Project
 ---
-We have to download few nessessary drawings files and use it for farther review and data analysis. Download files and save them the separate folder <dwg>.
+We have to download few nessessary drawings files and use it for farther review and data analysis. Download files and save them the separate folder ![dwg](https://github.com/Kate-Pol/Drawings_organizer_OCR-Project/tree/main/dwg) folder. This python program exepting files like: png, tif, jpeg, jpg. 
 
 Installing all the necessary packages from ![requirements file](https://github.com/Kate-Pol/Drawings_organizer_OCR-Project/blob/main/requirements.txt)
 
