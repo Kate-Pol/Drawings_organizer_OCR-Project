@@ -24,7 +24,12 @@ pip install -r requirements. txt
 ```
 In the command line, navigate into the your venv folder, and activate Scripts folder. Then novigate into the python file. 
 
-Program making drawing recognition, reading title, and moving each drawing in specific folder. Folders / dwg's title can add easy into the code, and more specific review.
+- Program making drawing recognition
+- Reading title
+- Moving each drawing in specific folder
+- Program also culculating files, and creating summary excel sheet
+- Folders / dwg's title can add easy into the code
+- More specific reviewcan be done after adding additional draiwngs names
 
 ### 2. Setting up your Git Repository
 ---
