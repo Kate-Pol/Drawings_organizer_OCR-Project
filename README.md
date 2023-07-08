@@ -11,14 +11,33 @@ Project Objectives:
 - Complete a project to add to the portfolio
 - Use python to communicate findings
 - Run an analysis on a set of drawings
-- Become more familiar with python and ocr files review 
-
-Program making drawing recognition, reading title, and moving each drawing in specific folder. Folders / dwg's title can add easy into the code, and more specific review.
-
-### Installation Options
+- Become more familiar with python and ocr files review
+  
+### 1. Setting Up The Project
 ---
+We have to download few nessessary drawings files and use it for farther review and data analysis. Download files and save them the separate folder <dwg>.
+
 Installing all the necessary packages from ![requirements file](https://github.com/Kate-Pol/Drawings_organizer_OCR-Project/blob/main/requirements.txt)
 
 ```
 pip install -r requirements. txt 
 ```
+In the command line, navigate into the your venv folder, and activate Scripts folder. Then novigate into the python file. 
+
+### 2. Setting up your Git Repository
+---
+Create a new Git repository for this project, and connet it to the project folder on your machine.
+
+If you need more guidance, review the GitHub Desktop article and additional help on this Git cheat sheet.
+
+After work is completed we can create and update README.md file.
+
+
+
+
+
+
+
+Program making drawing recognition, reading title, and moving each drawing in specific folder. Folders / dwg's title can add easy into the code, and more specific review.
+
+
