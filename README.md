@@ -29,7 +29,7 @@ In the command line, navigate into the your venv folder, and activate Scripts fo
 - Moving each drawing in specific folder
 - Program also culculating files, and creating summary excel sheet
 - Folders / dwg's title can add easy into the code
-- More specific reviewcan be done after adding additional draiwngs names
+- More specific review can be done after adding additional draiwngs names
 
 ### 2. Setting up your Git Repository
 ---
