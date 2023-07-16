@@ -13,7 +13,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 
 #reference folder
-folder_path = "\\dwg"      
+folder_path = "C:\Users\katep\Documents\GitHub\Files-organizer_tesseract\dwg"      
 dirs = os.listdir(folder_path)
 
 #total number of the files in the directory
