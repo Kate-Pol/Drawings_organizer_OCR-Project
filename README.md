@@ -39,7 +39,7 @@ If you need more guidance, review the GitHub Desktop article and additional help
 
 After work is completed we can create and update README.md file.
 
-### 3. Those are visualized files review.
+### 3. CMD will show up the summary of this review.
 ---
 
 ![image](https://github.com/Kate-Pol/Drawings_organizer_OCR-Project/blob/main/png%20files/Review%20cmd.PNG)
