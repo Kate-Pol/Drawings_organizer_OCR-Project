@@ -47,6 +47,7 @@ After work is completed we can create and update README.md file.
 - Calculates total amount of files
 - Shows progress bar, how many drawings reviewed, and time
 - Name of the folder created, and amount of drawings moved into this folder
+- Other drawings - which ever was not in the list, moved into separate folder 
 
 
 
