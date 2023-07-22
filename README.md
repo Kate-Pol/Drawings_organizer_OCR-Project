@@ -44,6 +44,9 @@ After work is completed we can create and update README.md file.
 
 ![image](https://github.com/Kate-Pol/Drawings_organizer_OCR-Project/blob/main/png%20files/Review%20cmd.PNG)
 
+- Calculates total amount of files
+- Shows progress bar, how many drawings reviewed, and time
+- Name of the folder created, and amount of drawings moved into this folder
 
 
 
